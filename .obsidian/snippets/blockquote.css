@@ -1,0 +1,27 @@
+body {
+    --blockquote-background-color: #f3f3f3;
+    --blockquote-border-color: #42b983;
+    --blockquote-border-thickness: 5px;
+}
+
+blockquote {
+    padding: 10px 16px;
+    margin: 16px 0;
+}
+
+/* 行内代码：阅读模式 */
+.markdown-rendered code:not(pre code) {
+    color: #e36b32 !important;
+    background-color: #f5f5f5 !important;
+}
+
+/* 行内代码：实时预览 / 编辑模式 */
+.cm-s-obsidian span.cm-inline-code {
+    color: #e36b32 !important;
+    background-color: #f5f5f5 !important;
+}
+
+/* 只调整带段落说明的有序列表 */
+.markdown-rendered ol > li:has(> p) + li {
+    margin-top: 1.5em !important;
+}

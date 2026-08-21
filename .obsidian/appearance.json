@@ -1,0 +1,13 @@
+{
+  "theme": "moonstone",
+  "accentColor": "#86c3e4",
+  "interfaceFontFamily": "微软雅黑",
+  "textFontFamily": "微软雅黑",
+  "monospaceFontFamily": "Consolas",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "blockquote"
+  ]
+}
