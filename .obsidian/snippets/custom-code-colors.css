@@ -1,0 +1,9 @@
+/* 1. 编辑模式（Live Preview / Source 模式）下的注释颜色 */
+.cm-s-obsidian span.cm-comment {
+    color: #2E8B57; /* 墨绿色 */
+}
+
+/* 2. 阅读模式下的注释颜色 */
+.markdown-rendered pre span.token.comment {
+    color: #2E8B57; /* 墨绿色 */
+}

@@ -8,6 +8,8 @@
   "baseFontSizeAction": true,
   "cssTheme": "",
   "enabledCssSnippets": [
-    "blockquote"
+    "blockquote",
+    "highlight",
+    "custom-code-colors"
   ]
 }

@@ -1,280 +1,387 @@
 {
   "workspaces": {
-    "写作模式": {
-      "main": {
-        "id": "703402634645b7cc",
-        "type": "split",
-        "children": [
-          {
-            "id": "887d50d51c29fbea",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d29594aab72e8acf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "05 Obsidian 插件"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "def80077595e1cc3",
-        "type": "split",
-        "children": [
-          {
-            "id": "3df5b89470df6dbe",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ea3a7b962deea1cf",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "文件列表"
-                }
-              },
-              {
-                "id": "f69bf7c01b6ac2fb",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "[\"tags\"]",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "搜索"
-                }
-              },
-              {
-                "id": "d2106669f2ba55f3",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-bookmark",
-                  "title": "书签"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 271.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "d9b9f99e0ce44418",
-        "type": "split",
-        "children": [
-          {
-            "id": "aaffca4f86c6b8d8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7962431efbc4b00e",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "反向链接"
-                }
-              },
-              {
-                "id": "cce3502bfcbbdb2f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "出链"
-                }
-              },
-              {
-                "id": "0e5754fe3c808578",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "标签"
-                }
-              },
-              {
-                "id": "ef6470d73f2a7699",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "添加笔记属性"
-                }
-              },
-              {
-                "id": "c840d26cf6c36200",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "大纲"
-                }
-              },
-              {
-                "id": "40555670cae35dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:打开快速切换": false,
-          "graph:查看关系图谱": false,
-          "canvas:新建白板": false,
-          "daily-notes:打开/创建今天的日记": false,
-          "templates:插入模板": false,
-          "command-palette:打开命令面板": false,
-          "bases:新建数据库": false,
-          "obsidian-git:Open Git source control": false,
-          "markdown-importer:打开 Markdown 格式转换器": false,
-          "workspaces:管理工作区布局": false
-        }
-      },
-      "active": "d29594aab72e8acf",
-      "mtime": "2026-08-17T21:17:39+08:00"
-    },
     "阅读模式": {
       "main": {
         "id": "703402634645b7cc",
         "type": "split",
         "children": [
           {
-            "id": "887d50d51c29fbea",
-            "type": "tabs",
-            "dimension": 71.00997506234414,
+            "id": "7e42395a051fc341",
+            "type": "split",
             "children": [
               {
-                "id": "d29594aab72e8acf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
+                "id": "1bea5d241e7ee904",
+                "type": "tabs",
+                "dimension": 67.93286219081273,
+                "children": [
+                  {
+                    "id": "f402686a6529e2aa",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "00 Obsidian/04 Obsidian 文件组织与管理.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "04 Obsidian 文件组织与管理"
                     }
                   },
-                  "icon": "lucide-file",
-                  "title": "05 Obsidian 插件"
-                },
-                "group": "100c2d37643165a8"
+                  {
+                    "id": "4019daea41578ed8",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {},
+                      "icon": "lucide-git-fork",
+                      "title": "关系图谱"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "4808e1082dca6350",
+                "type": "split",
+                "dimension": 32.06713780918728,
+                "children": [
+                  {
+                    "id": "9b98e58d9b377fe1",
+                    "type": "tabs",
+                    "dimension": 51.356589147286826,
+                    "children": [
+                      {
+                        "id": "507eff092c82507c",
+                        "type": "leaf",
+                        "state": {
+                          "type": "outline",
+                          "state": {
+                            "file": "00 Obsidian/04 Obsidian 文件组织与管理.md",
+                            "followCursor": false,
+                            "showSearch": false,
+                            "searchQuery": ""
+                          },
+                          "icon": "lucide-list",
+                          "title": "大纲"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ffaa7f4d081de733",
+                    "type": "tabs",
+                    "dimension": 48.643410852713174,
+                    "children": [
+                      {
+                        "id": "2954c17d31a46a5a",
+                        "type": "leaf",
+                        "state": {
+                          "type": "localgraph",
+                          "state": {
+                            "file": "00 Obsidian/04 Obsidian 文件组织与管理.md",
+                            "options": {
+                              "collapse-filter": true,
+                              "search": "",
+                              "localJumps": 1,
+                              "localBacklinks": true,
+                              "localForelinks": true,
+                              "localInterlinks": false,
+                              "showTags": false,
+                              "showAttachments": false,
+                              "hideUnresolved": false,
+                              "collapse-color-groups": true,
+                              "colorGroups": [],
+                              "collapse-display": true,
+                              "showArrow": false,
+                              "textFadeMultiplier": 0,
+                              "nodeSizeMultiplier": 1,
+                              "lineSizeMultiplier": 1,
+                              "collapse-forces": true,
+                              "centerStrength": 0.518713248970312,
+                              "repelStrength": 10,
+                              "linkStrength": 1,
+                              "linkDistance": 250,
+                              "scale": 0.7132754626224406,
+                              "close": true
+                            }
+                          },
+                          "icon": "lucide-git-fork",
+                          "title": "局部关系图谱"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "direction": "horizontal"
               }
-            ]
-          },
+            ],
+            "direction": "vertical"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "def80077595e1cc3",
+        "type": "split",
+        "children": [
           {
-            "id": "1bea5d241e7ee904",
+            "id": "3df5b89470df6dbe",
             "type": "tabs",
-            "dimension": 28.99002493765586,
             "children": [
               {
-                "id": "1241d983ab9c3dc8",
+                "id": "ea3a7b962deea1cf",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "f69bf7c01b6ac2fb",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "[\"tags\"]",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "d2106669f2ba55f3",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 271.5
+      },
+      "right": {
+        "id": "d9b9f99e0ce44418",
+        "type": "split",
+        "children": [
+          {
+            "id": "aaffca4f86c6b8d8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7962431efbc4b00e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "01 Projects/西安交通大学/软件工程/大三上学期/计算机网络/第一章 概述.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "反向链接"
+                }
+              },
+              {
+                "id": "cce3502bfcbbdb2f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "01 Projects/西安交通大学/软件工程/大三上学期/计算机网络/第一章 概述.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "出链"
+                }
+              },
+              {
+                "id": "0e5754fe3c808578",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "ef6470d73f2a7699",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "c840d26cf6c36200",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
+                    "file": "01 Projects/西安交通大学/软件工程/大三上学期/计算机网络/第一章 概述.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "05 Obsidian 插件 的大纲"
-                },
-                "group": "100c2d37643165a8"
+                  "title": "大纲"
+                }
+              },
+              {
+                "id": "1909915eb8e87f21",
+                "type": "leaf",
+                "state": {
+                  "type": "copilot-agent-chat-view",
+                  "state": {},
+                  "icon": "copilot-agent",
+                  "title": "Copilot Agent"
+                }
               }
-            ]
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 472.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "copilot:Open Copilot Agent Chat": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "bases:新建数据库": false,
+          "obsidian-git:Open Git source control": false,
+          "markdown-importer:打开 Markdown 格式转换器": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "2954c17d31a46a5a",
+      "mtime": "2026-08-22T14:24:05+08:00"
+    },
+    "写作模式": {
+      "main": {
+        "id": "703402634645b7cc",
+        "type": "split",
+        "children": [
+          {
+            "id": "7e42395a051fc341",
+            "type": "split",
+            "children": [
+              {
+                "id": "1bea5d241e7ee904",
+                "type": "tabs",
+                "dimension": 69.7841726618705,
+                "children": [
+                  {
+                    "id": "8577b9bb9927a7b9",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "00 Obsidian/04 Obsidian 文件组织与管理.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "04 Obsidian 文件组织与管理"
+                    },
+                    "group": "e9f928d7305f3c7c"
+                  }
+                ]
+              },
+              {
+                "id": "fee349313eb2fefa",
+                "type": "split",
+                "dimension": 30.215827338129497,
+                "children": [
+                  {
+                    "id": "8ff2442b473f0ff3",
+                    "type": "tabs",
+                    "dimension": 62.98449612403101,
+                    "children": [
+                      {
+                        "id": "0db3e41d5e28022a",
+                        "type": "leaf",
+                        "state": {
+                          "type": "outline",
+                          "state": {
+                            "file": "00 Obsidian/04 Obsidian 文件组织与管理.md",
+                            "followCursor": false,
+                            "showSearch": false,
+                            "searchQuery": ""
+                          },
+                          "icon": "lucide-list",
+                          "title": "04 Obsidian 文件组织与管理 的大纲"
+                        },
+                        "group": "e9f928d7305f3c7c"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "18bdd53b227c9429",
+                    "type": "tabs",
+                    "dimension": 37.01550387596899,
+                    "children": [
+                      {
+                        "id": "40555670cae35dbf",
+                        "type": "leaf",
+                        "state": {
+                          "type": "calendar",
+                          "state": {},
+                          "icon": "calendar-with-checkmark",
+                          "title": "Calendar"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "direction": "horizontal"
+              }
+            ],
+            "direction": "vertical"
           }
         ],
         "direction": "vertical"
@@ -414,6 +521,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第一讲 基本概念.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -423,24 +531,25 @@
                 }
               },
               {
-                "id": "40555670cae35dbf",
+                "id": "1909915eb8e87f21",
                 "type": "leaf",
                 "state": {
-                  "type": "calendar",
+                  "type": "copilot-agent-chat-view",
                   "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
+                  "icon": "copilot-agent",
+                  "title": "Copilot Agent"
                 }
               }
-            ]
+            ],
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 491.5
       },
       "left-ribbon": {
         "hiddenItems": {
+          "copilot:Open Copilot Agent Chat": false,
           "switcher:打开快速切换": false,
           "graph:查看关系图谱": false,
           "canvas:新建白板": false,
@@ -453,131 +562,34 @@
           "workspaces:管理工作区布局": false
         }
       },
-      "active": "1241d983ab9c3dc8",
-      "mtime": "2026-08-17T21:18:07+08:00"
+      "active": "ea3a7b962deea1cf",
+      "mtime": "2026-08-22T14:23:36+08:00"
     },
-    "回顾模式": {
+    "笔记模式": {
       "main": {
         "id": "703402634645b7cc",
         "type": "split",
         "children": [
           {
-            "id": "824959b9750b554b",
+            "id": "1bea5d241e7ee904",
             "type": "tabs",
-            "dimension": 48.598130841121495,
             "children": [
               {
-                "id": "a81f49d3fce4537b",
+                "id": "8577b9bb9927a7b9",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
+                    "file": "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第一讲 基本概念.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "05 Obsidian 插件"
-                },
-                "group": "8b2d39b6a6cb0388"
-              }
-            ]
-          },
-          {
-            "id": "ea9ceb91b38995b3",
-            "type": "tabs",
-            "dimension": 26.168224299065418,
-            "children": [
-              {
-                "id": "cbcad6ddd4efeab6",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "关系图谱"
+                  "title": "第一讲 基本概念"
                 }
               }
             ]
-          },
-          {
-            "id": "dfc526c13aaa3eef",
-            "type": "split",
-            "dimension": 25.233644859813083,
-            "children": [
-              {
-                "id": "4bc962975f94967f",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "ab5c821ba5df0a14",
-                    "type": "leaf",
-                    "state": {
-                      "type": "localgraph",
-                      "state": {
-                        "file": "00 Obsidian/05 Obsidian 插件.md",
-                        "options": {
-                          "collapse-filter": true,
-                          "search": "",
-                          "localJumps": 1,
-                          "localBacklinks": true,
-                          "localForelinks": true,
-                          "localInterlinks": false,
-                          "showTags": false,
-                          "showAttachments": false,
-                          "hideUnresolved": false,
-                          "collapse-color-groups": true,
-                          "colorGroups": [],
-                          "collapse-display": true,
-                          "showArrow": false,
-                          "textFadeMultiplier": 0,
-                          "nodeSizeMultiplier": 1,
-                          "lineSizeMultiplier": 1,
-                          "collapse-forces": true,
-                          "centerStrength": 0.518713248970312,
-                          "repelStrength": 10,
-                          "linkStrength": 1,
-                          "linkDistance": 250,
-                          "scale": 0.5087618855792582,
-                          "close": true
-                        }
-                      },
-                      "icon": "lucide-git-fork",
-                      "title": "05 Obsidian 插件 的关系图"
-                    },
-                    "group": "8b2d39b6a6cb0388"
-                  }
-                ]
-              },
-              {
-                "id": "dc26380cde60754f",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "d34330a4c4aff10f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "backlink",
-                      "state": {
-                        "file": "00 Obsidian/05 Obsidian 插件.md",
-                        "collapseAll": false,
-                        "extraContext": false,
-                        "sortOrder": "alphabetical",
-                        "showSearch": false,
-                        "searchQuery": "",
-                        "backlinkCollapsed": false,
-                        "unlinkedCollapsed": true
-                      },
-                      "icon": "links-coming-in",
-                      "title": "05 Obsidian 插件 的反向链接列表"
-                    },
-                    "group": "8b2d39b6a6cb0388"
-                  }
-                ]
-              }
-            ],
-            "direction": "horizontal"
           }
         ],
         "direction": "vertical"
@@ -717,6 +729,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第一讲 基本概念.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -724,301 +737,18 @@
                   "icon": "lucide-list",
                   "title": "大纲"
                 }
-              },
-              {
-                "id": "40555670cae35dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:打开快速切换": false,
-          "graph:查看关系图谱": false,
-          "canvas:新建白板": false,
-          "daily-notes:打开/创建今天的日记": false,
-          "templates:插入模板": false,
-          "command-palette:打开命令面板": false,
-          "bases:新建数据库": false,
-          "obsidian-git:Open Git source control": false,
-          "markdown-importer:打开 Markdown 格式转换器": false,
-          "workspaces:管理工作区布局": false
-        }
-      },
-      "active": "ab5c821ba5df0a14",
-      "mtime": "2026-08-17T21:25:24+08:00"
-    },
-    "梳理模式": {
-      "main": {
-        "id": "703402634645b7cc",
-        "type": "split",
-        "children": [
-          {
-            "id": "887d50d51c29fbea",
-            "type": "tabs",
-            "dimension": 58.35411471321695,
-            "children": [
-              {
-                "id": "d29594aab72e8acf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "05 Obsidian 插件"
-                },
-                "group": "100c2d37643165a8"
-              }
-            ]
-          },
-          {
-            "id": "503fd0f2f1f6f25d",
-            "type": "split",
-            "dimension": 41.64588528678304,
-            "children": [
-              {
-                "id": "1bea5d241e7ee904",
-                "type": "tabs",
-                "dimension": 56.104651162790695,
-                "children": [
-                  {
-                    "id": "1241d983ab9c3dc8",
-                    "type": "leaf",
-                    "state": {
-                      "type": "outline",
-                      "state": {
-                        "file": "00 Obsidian/05 Obsidian 插件.md",
-                        "followCursor": false,
-                        "showSearch": false,
-                        "searchQuery": ""
-                      },
-                      "icon": "lucide-list",
-                      "title": "05 Obsidian 插件 的大纲"
-                    },
-                    "group": "100c2d37643165a8"
-                  }
-                ]
-              },
-              {
-                "id": "bf96b598cedfda14",
-                "type": "tabs",
-                "dimension": 43.895348837209305,
-                "children": [
-                  {
-                    "id": "dca80706585ace70",
-                    "type": "leaf",
-                    "state": {
-                      "type": "backlink",
-                      "state": {
-                        "file": "00 Obsidian/05 Obsidian 插件.md",
-                        "collapseAll": false,
-                        "extraContext": false,
-                        "sortOrder": "alphabetical",
-                        "showSearch": false,
-                        "searchQuery": "",
-                        "backlinkCollapsed": false,
-                        "unlinkedCollapsed": true
-                      },
-                      "icon": "links-coming-in",
-                      "title": "05 Obsidian 插件 的反向链接列表"
-                    },
-                    "group": "100c2d37643165a8"
-                  }
-                ]
               }
             ],
-            "direction": "horizontal"
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "def80077595e1cc3",
-        "type": "split",
-        "children": [
-          {
-            "id": "3df5b89470df6dbe",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ea3a7b962deea1cf",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "文件列表"
-                }
-              },
-              {
-                "id": "f69bf7c01b6ac2fb",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "[\"tags\"]",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "搜索"
-                }
-              },
-              {
-                "id": "d2106669f2ba55f3",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-bookmark",
-                  "title": "书签"
-                }
-              }
-            ]
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 271.5
-      },
-      "right": {
-        "id": "d9b9f99e0ce44418",
-        "type": "split",
-        "children": [
-          {
-            "id": "aaffca4f86c6b8d8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7962431efbc4b00e",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "反向链接"
-                }
-              },
-              {
-                "id": "cce3502bfcbbdb2f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "00 Obsidian/05 Obsidian 插件.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "出链"
-                }
-              },
-              {
-                "id": "0e5754fe3c808578",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "标签"
-                }
-              },
-              {
-                "id": "ef6470d73f2a7699",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "添加笔记属性"
-                }
-              },
-              {
-                "id": "c840d26cf6c36200",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "大纲"
-                }
-              },
-              {
-                "id": "40555670cae35dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
+        "width": 485.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
+          "copilot:Open Copilot Agent Chat": false,
           "switcher:打开快速切换": false,
           "graph:查看关系图谱": false,
           "canvas:新建白板": false,
@@ -1031,9 +761,9 @@
           "workspaces:管理工作区布局": false
         }
       },
-      "active": "dca80706585ace70",
-      "mtime": "2026-08-17T21:26:18+08:00"
+      "active": "8577b9bb9927a7b9",
+      "mtime": "2026-08-22T14:52:51+08:00"
     }
   },
-  "active": "阅读模式"
+  "active": "写作模式"
 }

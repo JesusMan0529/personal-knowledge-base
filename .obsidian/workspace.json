@@ -4,41 +4,82 @@
     "type": "split",
     "children": [
       {
-        "id": "1bea5d241e7ee904",
-        "type": "tabs",
+        "id": "7e42395a051fc341",
+        "type": "split",
         "children": [
           {
-            "id": "1241d983ab9c3dc8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00 Obsidian/06 Obsidian 同步.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
+            "id": "1bea5d241e7ee904",
+            "type": "tabs",
+            "dimension": 70.56603773584905,
+            "children": [
+              {
+                "id": "8577b9bb9927a7b9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "00 Obsidian/01 Obsidian/06 Obsidian 同步.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "06 Obsidian 同步"
+                },
+                "group": "e9f928d7305f3c7c"
+              }
+            ]
           },
           {
-            "id": "b7aa226ec97e1dd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Obsidian/06 Obsidian 同步.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+            "id": "fee349313eb2fefa",
+            "type": "split",
+            "dimension": 29.433962264150942,
+            "children": [
+              {
+                "id": "8ff2442b473f0ff3",
+                "type": "tabs",
+                "dimension": 62.98449612403101,
+                "children": [
+                  {
+                    "id": "0db3e41d5e28022a",
+                    "type": "leaf",
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "00 Obsidian/01 Obsidian/06 Obsidian 同步.md",
+                        "followCursor": false,
+                        "showSearch": false,
+                        "searchQuery": ""
+                      },
+                      "icon": "lucide-list",
+                      "title": "06 Obsidian 同步 的大纲"
+                    },
+                    "group": "e9f928d7305f3c7c"
+                  }
+                ]
               },
-              "icon": "lucide-file",
-              "title": "06 Obsidian 同步"
-            }
+              {
+                "id": "18bdd53b227c9429",
+                "type": "tabs",
+                "dimension": 37.01550387596899,
+                "children": [
+                  {
+                    "id": "40555670cae35dbf",
+                    "type": "leaf",
+                    "state": {
+                      "type": "calendar",
+                      "state": {},
+                      "icon": "calendar-with-checkmark",
+                      "title": "Calendar"
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
           }
         ],
-        "currentTab": 1
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -72,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#数据结构与算法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,6 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第一讲 基本概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,17 +229,7 @@
             }
           },
           {
-            "id": "40555670cae35dbf",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "2fbb36ed33413433",
+            "id": "1909915eb8e87f21",
             "type": "leaf",
             "state": {
               "type": "copilot-agent-chat-view",
@@ -207,11 +239,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 531.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,47 +261,54 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b7aa226ec97e1dd0",
+  "active": "8577b9bb9927a7b9",
   "lastOpenFiles": [
-    "00 Obsidian/07 Obsidian + AI (Copilot).md",
-    "Copilot-DeepSeek/skills/copilot-web-search/SKILL.md",
-    "00 Obsidian/05 Obsidian 插件.md",
-    "00 Obsidian/00 Markdown/03 Markdown 列表.md",
-    "00 Obsidian/00 Markdown/00 Markdown 教程.md",
-    "00 Obsidian/00 Markdown/06 Markdown 链接.md",
-    "00 Obsidian/00 Markdown/05 Markdown 代码.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Clip Web Page.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Rewrite as tweet.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Remove URLs.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Generate glossary.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Generate table of contents.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Make longer.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Make shorter.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Emojify.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Explain like I am 5.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Simplify.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Summarize.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Translate to Chinese.md",
-    "Copilot-DeepSeek/copilot-custom-prompts/Fix grammar and spelling.md",
+    "00 Obsidian/01 Obsidian/04 Obsidian 文件组织与管理.md",
+    "02 Areas/Software Engineering/Data Structure & Algorithm/数据结构与算法.md",
+    "00 Obsidian/00 Markdown/04 Markdown 引用块.md",
+    "02 Areas/Software Engineering/Java/Java.md",
+    "03 Resources/Workflow/课程学习工作流.md",
+    "02 Areas/Software Engineering/Data Structure & Algorithm",
+    "03 Resources/Workflow",
+    "02 Areas/Software Engineering/Java",
+    "02 Areas/Software Engineering",
+    "01 Projects/XJTU_Courses/DSA/数据结构与算法.md",
+    "01 Projects/XJTU_Courses/DSA/课程信息.pdf",
+    "01 Projects/XJTU_Courses/DSA",
+    "01 Projects/XJTU_Courses/DSA.md",
+    "01 Projects/XJTU_Courses",
+    "04 Archives/XJTU_Course_Info",
+    "04 Archives/《数据结构与算法》原盛.pdf",
+    "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第一章 基本概念.md",
+    "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第二章 线性结构.md",
+    "Pasted image 20260827144316.png",
+    "Pasted image 20260827144252.png",
+    "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827144059.png",
+    "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827144044.png",
+    "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827143635.png",
+    "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827143602.png",
+    "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827143020.png",
+    "01 Projects/西安交通大学/软件工程/大三上学期/计算机网络/第一章 概述.md",
+    "00 Obsidian/02 Attachments/计算机网络/Pasted image 20260826095642.png",
+    "00 Obsidian/02 Attachments/计算机网络/Pasted image 20260825191453.png",
+    "00 Obsidian/02 Attachments/计算机网络/Pasted image 20260826095539.png",
     "00 Obsidian/00 Markdown/02 Markdown 文本格式.md",
-    "Copilot-DeepSeek/copilot-conversations/agent__请你根据我提供的内容替我完成这篇文档的编写：_1.在De@20260821_151203.md",
-    "Copilot-DeepSeek/copilot-conversations/agent__请你做一个自我介绍@20260821_150829.md",
-    "Copilot-DeepSeek/skills/obsidian-cli/SKILL.md",
-    "Copilot-DeepSeek/skills/obsidian-cli/LICENSE",
-    "Copilot-DeepSeek/skills/obsidian-cli",
-    "Copilot-DeepSeek/skills/json-canvas/LICENSE",
-    "Copilot-DeepSeek/skills/json-canvas/references",
-    "Copilot-DeepSeek/skills/json-canvas",
-    "Copilot-DeepSeek/skills/obsidian-bases/LICENSE",
-    "Copilot-DeepSeek/skills/obsidian-bases/references",
-    "Copilot-DeepSeek/skills/obsidian-bases",
-    "Copilot-DeepSeek/skills/obsidian-markdown/LICENSE",
-    "Copilot-DeepSeek/skills/obsidian-markdown/references",
-    "00 Obsidian/未命名.canvas",
-    "Attachments/example.png",
-    "Attachments/example1.png",
-    "00 Obsidian 使用教程/00 Markdown 教程/images/西安交通大学软件学院Logo.png"
+    "00 Obsidian/00 Markdown/00 Markdown 教程.md",
+    "CLAUDE.md",
+    "05 Copilot/copilot-custom-prompts/Clip Web Page.md",
+    "05 Copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "05 Copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "05 Copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "05 Copilot/copilot-custom-prompts/Remove URLs.md",
+    "05 Copilot/copilot-custom-prompts/Generate glossary.md",
+    "05 Copilot/copilot-custom-prompts/Generate table of contents.md",
+    "05 Copilot/copilot-custom-prompts/Make longer.md",
+    "05 Copilot/copilot-custom-prompts/Make shorter.md",
+    "05 Copilot/copilot-custom-prompts/Emojify.md",
+    "05 Copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "05 Copilot/copilot-custom-prompts/Simplify.md",
+    "05 Copilot/copilot-custom-prompts/Summarize.md",
+    "05 Copilot/skills/obsidian-cli/LICENSE",
+    "00 Obsidian/未命名.canvas"
   ]
 }

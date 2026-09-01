@@ -30,10 +30,11 @@
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
-  "copilotFolder": "Copilot-DeepSeek",
+  "copilotFolder": "05 Copilot",
   "copilotRootHistory": [
     "copilot",
-    "Copilot-DeepSeek"
+    "Copilot-DeepSeek",
+    "05 Copilot"
   ],
   "upgradedToV8FromLegacy": false,
   "defaultSaveFolder": "copilot/copilot-conversations",
@@ -492,7 +493,15 @@
   "agentMode": {
     "byok": {},
     "activeBackend": "opencode",
-    "backends": {},
+    "backends": {
+      "opencode": {
+        "defaultModel": {
+          "baseModelId": "opencode/big-pickle",
+          "effort": null
+        },
+        "defaultMode": "default"
+      }
+    },
     "debugFullFrames": true,
     "welcomeDismissed": true,
     "skills": {
@@ -538,6 +547,51 @@
     }
   },
   "configuredModels": [
+    {
+      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
+      "info": {
+        "id": "opencode/big-pickle",
+        "displayName": "OpenCode Zen/Big Pickle"
+      },
+      "configuredModelId": "f4a5767e-ec66-4fcb-b5f0-14e192e8334b",
+      "configuredAt": 1787295883726
+    },
+    {
+      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
+      "info": {
+        "id": "opencode/mimo-v2.5-free",
+        "displayName": "OpenCode Zen/MiMo V2.5 Free"
+      },
+      "configuredModelId": "fb1f359f-7dff-453e-8c73-ac8f5dfade84",
+      "configuredAt": 1787295883747
+    },
+    {
+      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
+      "info": {
+        "id": "opencode/nemotron-3-ultra-free",
+        "displayName": "OpenCode Zen/Nemotron 3 Ultra Free"
+      },
+      "configuredModelId": "c3d1b509-f803-42a7-879d-ddd6f73fc562",
+      "configuredAt": 1787295883748
+    },
+    {
+      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
+      "info": {
+        "id": "opencode/muse-spark-1.2-contributor-free",
+        "displayName": "OpenCode Zen/Muse Spark 1.2 Free"
+      },
+      "configuredModelId": "bb4ad620-a7c3-4176-bdba-98ed80e58d01",
+      "configuredAt": 1787312244569
+    },
+    {
+      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
+      "info": {
+        "id": "opencode/nemotron-3.5-lightning-free",
+        "displayName": "OpenCode Zen/Nemotron 3.5 Lightning Free"
+      },
+      "configuredModelId": "9662b0dc-03f1-4035-ab3f-fdfcb46fc68f",
+      "configuredAt": 1787312244570
+    },
     {
       "configuredModelId": "6ff4a48b-54d4-47be-a318-04fedd89dcb9",
       "providerId": "29b73135-10e0-495b-9c5a-645a6601046a",
@@ -597,81 +651,59 @@
       "configuredAt": 1787294067532
     },
     {
-      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
+      "configuredModelId": "e8194114-5543-4b6a-8c1e-0b62d04bf13c",
+      "providerId": "29b73135-10e0-495b-9c5a-645a6601046a",
       "info": {
-        "id": "opencode/big-pickle",
-        "displayName": "OpenCode Zen/Big Pickle"
+        "id": "deepseek-v4-flash-vision-exp",
+        "displayName": "DeepSeek V4 Flash Vision Exp",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 384000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-08-21",
+        "cost": {
+          "input": 0.14,
+          "output": 0.28,
+          "cacheRead": 0.0028
+        }
       },
-      "configuredModelId": "f4a5767e-ec66-4fcb-b5f0-14e192e8334b",
-      "configuredAt": 1787295883726
+      "configuredAt": 1787463976187
     },
     {
       "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
       "info": {
-        "id": "opencode/mimo-v2.5-free",
-        "displayName": "OpenCode Zen/MiMo V2.5 Free"
+        "id": "opencode/ling-3.0-flash-fin-free",
+        "displayName": "OpenCode Zen/Ling 3.0 Flash Fin Free"
       },
-      "configuredModelId": "fb1f359f-7dff-453e-8c73-ac8f5dfade84",
-      "configuredAt": 1787295883747
-    },
-    {
-      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
-      "info": {
-        "id": "opencode/nemotron-3-ultra-free",
-        "displayName": "OpenCode Zen/Nemotron 3 Ultra Free"
-      },
-      "configuredModelId": "c3d1b509-f803-42a7-879d-ddd6f73fc562",
-      "configuredAt": 1787295883748
-    },
-    {
-      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
-      "info": {
-        "id": "opencode/hy3-free",
-        "displayName": "OpenCode Zen/Hy3 Free"
-      },
-      "configuredModelId": "b991c7cc-a57d-4d38-b339-4735353ffe8c",
-      "configuredAt": 1787312244568
-    },
-    {
-      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
-      "info": {
-        "id": "opencode/muse-spark-1.2-contributor-free",
-        "displayName": "OpenCode Zen/Muse Spark 1.2 Free"
-      },
-      "configuredModelId": "bb4ad620-a7c3-4176-bdba-98ed80e58d01",
-      "configuredAt": 1787312244569
-    },
-    {
-      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
-      "info": {
-        "id": "opencode/nemotron-3.5-lightning-free",
-        "displayName": "OpenCode Zen/Nemotron 3.5 Lightning Free"
-      },
-      "configuredModelId": "9662b0dc-03f1-4035-ab3f-fdfcb46fc68f",
-      "configuredAt": 1787312244570
-    },
-    {
-      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
-      "info": {
-        "id": "opencode/x-preview-f-free",
-        "displayName": "OpenCode Zen/Ox Alpha Free (Unlimited)"
-      },
-      "configuredModelId": "e3f23a51-bd04-49a6-8d19-84d1ca08fe3a",
-      "configuredAt": 1787312244570
+      "configuredModelId": "ae533072-59b7-455d-8840-2646612b96e1",
+      "configuredAt": 1788054414728
     }
   ],
   "backends": {
     "chat": {
       "enabledModels": [
         "6ff4a48b-54d4-47be-a318-04fedd89dcb9",
-        "a5d392e1-b6f9-453f-9779-f29a7a649aef"
+        "a5d392e1-b6f9-453f-9779-f29a7a649aef",
+        "e8194114-5543-4b6a-8c1e-0b62d04bf13c"
       ]
     },
     "opencode": {
       "enabledModels": [
         "6ff4a48b-54d4-47be-a318-04fedd89dcb9",
         "a5d392e1-b6f9-453f-9779-f29a7a649aef",
-        "f4a5767e-ec66-4fcb-b5f0-14e192e8334b"
+        "f4a5767e-ec66-4fcb-b5f0-14e192e8334b",
+        "e8194114-5543-4b6a-8c1e-0b62d04bf13c"
       ]
     }
   },

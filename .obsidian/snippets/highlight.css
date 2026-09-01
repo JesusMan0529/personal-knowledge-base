@@ -1,0 +1,11 @@
+/* 高亮标记（==文字==）颜色改为 #FFFF00 */
+body {
+    --text-highlight-bg: #FFFF00;
+}
+
+/* 覆盖新版 Obsidian 的 color-mix 半透明效果，确保纯色 #FFFF00 */
+.markdown-rendered mark,
+.cm-s-obsidian span.cm-highlight,
+.markdown-source-view .cm-highlight {
+    background-color: #FFFF00 !important;
+}
