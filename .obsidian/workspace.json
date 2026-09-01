@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1bea5d241e7ee904",
+        "id": "20caf6b26b6f766c",
         "type": "tabs",
         "children": [
           {
-            "id": "8577b9bb9927a7b9",
+            "id": "40b73ec217f28a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#生活小妙招",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 278.07143783569336
   },
   "right": {
     "id": "d9b9f99e0ce44418",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第一讲 基本概念.md",
+                "file": "00 Obsidian/01 Obsidian/06 Obsidian 同步.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,13 +170,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "881382f3a0bf470d",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
+    "width": 436.4998779296875,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,57 +201,58 @@
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8577b9bb9927a7b9",
+  "active": "40b73ec217f28a6e",
   "lastOpenFiles": [
+    "02 Areas/Data Structure & Algorithm/2.算法分析.md",
+    "02 Areas/Data Structure & Algorithm/1. 数据结构基本概念.md",
+    "00 Obsidian/00 Markdown/06 Markdown 链接.md",
+    "00 Obsidian/00 Markdown/03 Markdown 列表.md",
+    "00 Obsidian/00 Markdown/02 Markdown 文本格式.md",
+    "00 Obsidian/00 Markdown/01 Markdown 标题.md",
+    "00 Obsidian/00 Markdown/10 Markdown 数学公式.md",
+    "00 Obsidian/00 Markdown/09 Markdown 高级技巧.md",
+    "00 Obsidian/00 Markdown/08 Markdown 表格.md",
+    "00 Obsidian/00 Markdown/11 Markdown 图表绘制.md",
     "00 Obsidian/01 Obsidian/04 Obsidian 文件组织与管理.md",
-    "00 Obsidian/01 Obsidian/06 Obsidian 同步.md",
-    "02 Areas/Software Engineering/Data Structure & Algorithm/数据结构与算法.md",
     "00 Obsidian/00 Markdown/04 Markdown 引用块.md",
+    "00 Obsidian/00 Markdown/05 Markdown 代码.md",
+    "00 Obsidian/02 Attachments/Data Structure & Algorithm/Pasted image 20260901220948.png",
+    "05 Copilot/copilot-conversations/agent__请你根据文档内容为我讲解一遍@20260901_204128.md",
+    "00 Obsidian/02 Attachments/Data Structure & Algorithm/Pasted image 20260901203933.png",
+    "Excalidraw/Drawing 2026-09-01 20.37.03.excalidraw.md",
+    "00 Obsidian/02 Attachments/Data Structure & Algorithm",
+    "00 Obsidian/02 Attachments/Data/未命名",
+    "00 Obsidian/02 Attachments/Data",
+    "Pasted image 20260901183248.png",
+    "Excalidraw/Drawing 2026-09-01 18.32.10.excalidraw.md",
+    "00 Obsidian/00 Markdown/07 Markdown 图片.md",
+    "Excalidraw/Drawing 2026-09-01 18.22.45.excalidraw.md",
+    "Excalidraw",
+    "00 Obsidian/01 Obsidian/07 Obsidian + AI (Copilot).md",
+    "00 Obsidian/02 Attachments/Markdown/example.png",
+    "00 Obsidian/01 Obsidian/02 关于 Obsidian 的第一条想法.md",
+    "00 Obsidian/03 Templates/日记模版.md",
+    "00 Obsidian/03 Templates/概念笔记模板.md",
+    "00 Obsidian/02 Attachments/Markdown/example1.png",
+    "00 Obsidian/01 Obsidian/06 Obsidian 同步.md",
     "02 Areas/Software Engineering/Java/Java.md",
     "03 Resources/Workflow/课程学习工作流.md",
-    "02 Areas/Software Engineering/Data Structure & Algorithm",
+    "02 Areas/Data Structure & Algorithm",
     "03 Resources/Workflow",
-    "02 Areas/Software Engineering/Java",
+    "02 Areas/Java",
     "02 Areas/Software Engineering",
     "01 Projects/XJTU_Courses/DSA/数据结构与算法.md",
     "01 Projects/XJTU_Courses/DSA/课程信息.pdf",
     "01 Projects/XJTU_Courses/DSA",
-    "01 Projects/XJTU_Courses/DSA.md",
-    "01 Projects/XJTU_Courses",
-    "04 Archives/XJTU_Course_Info",
-    "04 Archives/《数据结构与算法》原盛.pdf",
-    "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第一章 基本概念.md",
-    "01 Projects/西安交通大学/软件工程/大三上学期/数据结构与算法/第二章 线性结构.md",
     "Pasted image 20260827144316.png",
     "Pasted image 20260827144252.png",
     "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827144059.png",
     "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827144044.png",
     "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827143635.png",
-    "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827143602.png",
-    "00 Obsidian/02 Attachments/数据结构与算法/Pasted image 20260827143020.png",
-    "01 Projects/西安交通大学/软件工程/大三上学期/计算机网络/第一章 概述.md",
-    "00 Obsidian/02 Attachments/计算机网络/Pasted image 20260826095642.png",
-    "00 Obsidian/02 Attachments/计算机网络/Pasted image 20260825191453.png",
-    "00 Obsidian/02 Attachments/计算机网络/Pasted image 20260826095539.png",
-    "00 Obsidian/00 Markdown/02 Markdown 文本格式.md",
-    "00 Obsidian/00 Markdown/00 Markdown 教程.md",
-    "CLAUDE.md",
-    "05 Copilot/copilot-custom-prompts/Clip Web Page.md",
-    "05 Copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "05 Copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "05 Copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "05 Copilot/copilot-custom-prompts/Remove URLs.md",
-    "05 Copilot/copilot-custom-prompts/Generate glossary.md",
-    "05 Copilot/copilot-custom-prompts/Generate table of contents.md",
-    "05 Copilot/copilot-custom-prompts/Make longer.md",
-    "05 Copilot/copilot-custom-prompts/Make shorter.md",
-    "05 Copilot/copilot-custom-prompts/Emojify.md",
-    "05 Copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "05 Copilot/copilot-custom-prompts/Simplify.md",
-    "05 Copilot/skills/obsidian-cli/LICENSE",
     "00 Obsidian/未命名.canvas"
   ]
 }

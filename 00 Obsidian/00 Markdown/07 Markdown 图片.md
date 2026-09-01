@@ -17,6 +17,3 @@ Markdown 没有办法指定图片的高度与宽度，需要使用 **HTML 标签
 `[![软件学院院徽](./images/example.png)](https://se.xjtu.edu.cn/index.htm)`
 [![软件学院院徽|195](example.png)](https://se.xjtu.edu.cn/index.htm)
 **点击图标进入软件学院官网**
-
-
-
