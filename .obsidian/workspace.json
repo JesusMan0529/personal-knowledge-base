@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "20caf6b26b6f766c",
+        "id": "d5267856ff8cd3c5",
         "type": "tabs",
         "children": [
           {
-            "id": "40b73ec217f28a6e",
+            "id": "48aa408239b7fc86",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,6 +180,16 @@
               "icon": "copilot-agent",
               "title": "Copilot Agent"
             }
+          },
+          {
+            "id": "af5f4d722f4b11a4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 4
@@ -205,7 +215,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "40b73ec217f28a6e",
+  "active": "ea3a7b962deea1cf",
   "lastOpenFiles": [
     "02 Areas/Data Structure & Algorithm/2.算法分析.md",
     "02 Areas/Data Structure & Algorithm/1. 数据结构基本概念.md",
