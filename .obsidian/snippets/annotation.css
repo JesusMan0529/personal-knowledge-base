@@ -1,0 +1,9 @@
+/* 阅读视图：Java 注解 */
+.markdown-rendered code.language-java .token.annotation {
+    color: #ff9800 !important;
+}
+
+/* 实时预览 / 编辑模式：Java 注解 */
+.markdown-source-view.mod-cm6 .cm-line .cm-meta {
+    color: #ff9800 !important;
+}

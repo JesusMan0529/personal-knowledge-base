@@ -1,0 +1,12 @@
+.theme-light {
+  --code-background: #eeeeee;
+}
+
+/* 代码块行高 */
+.markdown-rendered pre code {
+  line-height: 1.55;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  line-height: 1.55;
+}

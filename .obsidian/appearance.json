@@ -5,11 +5,15 @@
   "textFontFamily": "微软雅黑",
   "monospaceFontFamily": "Consolas",
   "baseFontSize": 16,
-  "baseFontSizeAction": true,
+  "baseFontSizeAction": false,
   "cssTheme": "",
   "enabledCssSnippets": [
     "blockquote",
     "highlight",
-    "custom-code-colors"
+    "custom-code-colors",
+    "annotation",
+    "code-block",
+    "code-background",
+    "comment"
   ]
 }

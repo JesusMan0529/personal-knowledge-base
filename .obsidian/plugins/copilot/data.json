@@ -499,7 +499,7 @@
           "baseModelId": "opencode/big-pickle",
           "effort": null
         },
-        "defaultMode": "default"
+        "defaultMode": "auto"
       }
     },
     "debugFullFrames": true,
@@ -688,6 +688,15 @@
       },
       "configuredModelId": "ae533072-59b7-455d-8840-2646612b96e1",
       "configuredAt": 1788054414728
+    },
+    {
+      "providerId": "c2534f0a-3428-41e0-b62c-892c077b1b24",
+      "info": {
+        "id": "opencode/muse-spark-1.3-contributor-free",
+        "displayName": "OpenCode Zen/Muse Spark 1.3 Free"
+      },
+      "configuredModelId": "512e9256-f399-47e0-992b-b9da2cddaeca",
+      "configuredAt": 1788400469470
     }
   ],
   "backends": {

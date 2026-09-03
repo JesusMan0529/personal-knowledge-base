@@ -1,8 +1,9 @@
 {
   "promptDelete": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showLineNumber": true,
   "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "tabSize": 2
+  "tabSize": 2,
+  "showInlineTitle": true
 }
